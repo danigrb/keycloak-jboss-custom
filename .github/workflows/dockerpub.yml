@@ -33,7 +33,7 @@ jobs:
           file: ./Dockerfile
           push: true
           pull: true
-          tags: danigrb/jam2021:golang-stripe-arm
+          tags: danigrb/jam2021:keycloak-custom
           cache-from: type=registry,ref=danigrb/jam2021:buildcache
           cache-to: type=registry,ref=danigrb/jam2021:buildcache,mode=max
       -
